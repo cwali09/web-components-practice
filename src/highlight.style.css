@@ -1,0 +1,11 @@
+.vm-highlight
+{
+  background: #41e87e;
+  width: 12px;
+  border-radius: 50%;
+  height: inherit;
+  position: absolute;
+  /* Max Length is 435 */
+  margin-left: 0%; /* This is the highlights position in the inner-bar, editable when adding highlight*/
+  /* z-index: 3; */
+}

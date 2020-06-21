@@ -1,0 +1,70 @@
+    
+    // from bar.js
+    // UpdateInnerBarSize(newValue)
+    // {
+    //     function CalculateInnerBarSize(widthPercentage)
+    //     {
+    //         // console.log(this);
+    //         //console.log(this.root.innerHTML);
+    //         var totalBarWidth = this.innerBar.style.width; //try offsetwidth too?
+    //         var innerBarSizePercent = (totalBarWidth / this.targetVideo.duration) / 100.0; //in seconds
+    //         // console.log(innerBarSizePercent)
+    //         //return innerBarSizePercent
+    //         return totalBarWidth;
+    //     }
+
+    //     function GetStyleNodeFromRoot()
+    //     {
+    //         var children = this.root.childNodes;
+    //         for (let node of children)
+    //         {
+    //             if (node.nodeName === 'STYLE')
+    //             {
+    //                 return node;
+    //             }
+    //         }
+    //     }
+
+    //     function GetSelectorStylesFromStyleNode(styleNode, selectorName)
+    //     {
+    //         var rulesList = styleNode.sheet.cssRules;
+    //         for (let rule of rulesList)
+    //         {
+    //             if (rule.selectorText === selectorName)
+    //             {
+    //                 return rule.style;
+    //             }
+    //         }
+    //     }
+
+    //     function GetWidthFromRuleStyles(ruleStyles)
+    //     {
+    //         return ruleStyles.width;
+    //     }
+
+    //     function StringPercentageToDecimal(percent)
+    //     {
+    //         var result = parseFloat(percent) / 100.0;
+    //         return result;
+    //     }
+
+    //     function FloatToStringPercent(float)
+    //     {
+    //         return ((float * 100.00).toString() + "%");
+    //     }
+
+    //     // console.log(this.root.childNodes);
+    //     // var styleNode = GetStyleNodeFromRoot.bind(this)();
+    //     // var ruleStyles = GetSelectorStylesFromStyleNode(styleNode, ".in-bar")
+    //     // var innerBarWidth = GetWidthFromRuleStyles(ruleStyles);
+    //     // var decimalPercent = StringPercentageToDecimal(innerBarWidth);
+
+    //     // console.log(decimalPercent);
+    //     // if (this.innerBar.childNodes.length == 0)
+    //     // {
+    //     //     var newStyle = document.createElement('style');
+    //     //     this.innerBar.appendChild(newStyle);
+    //     // }
+    //     // this.innerBar.style.width = FloatToStringPercent(this.position/100.00);
+    //     //this.innerBar.style.width = CalculateInnerBarSize.bind(this);
+    // }
